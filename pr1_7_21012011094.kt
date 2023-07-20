@@ -7,7 +7,8 @@ fun main()
     println("fact:"+ans)
 
 }
-fun fact(a:Int):Int{
+fun fact(a:Int):Int
+{
     if (a==0 || a==1)
     {
         return 1;
