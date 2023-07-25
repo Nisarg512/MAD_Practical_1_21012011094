@@ -1,10 +1,14 @@
-fun main(){
-    var value1 = 10
-    println("$value1")
-    val value2: Double = value1.toDouble()
-    val value3: String = value1.toString()
-    //Double value is below
-    println("$value2 is toDouble")
-    // String Value is below
-    println("$value3 is toString")
+fun main() {
+    val a: Int=10
+    val b:Double= a.toDouble()
+    println("int to double")
+    println(b)
+    val c: String ="94"
+    val d:Int= c.toInt()
+    println("string to int")
+    println(d)
+    val e: String="78"
+    val f:Double= e.toDouble()
+    println("string to double")
+    println(f)
 }

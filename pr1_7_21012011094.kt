@@ -1,19 +1,15 @@
-
-fun main()
-{
-    println("Enter the number:")
-    var a = readln().toInt()
-    var ans =fact(a)
-    println("fact:"+ans)
-
+fun main() {
+    print("Enter Number: ")
+    var number = readLine()!!.toInt()
+    val factorial = fact(number)
+    println("Factorial of $number = $factorial")
 }
-fun fact(a:Int):Int
-{
-    if (a==0 || a==1)
-    {
-        return 1;
-}
-    else{
-        return a * fact(a-1)
 
-    }    }
+tailrec fun fact(n: Int, temp: Int = 1): Int {
+    return if (n == 1){
+        temp
+    } else {
+        fact(n-1, temp*n)
+    }
+}
+
