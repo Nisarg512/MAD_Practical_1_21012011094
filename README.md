@@ -22,7 +22,7 @@ AIM-Kotlin Programs
 
 ![image](https://github.com/Nisarg512/MAD_Practical_1_21012011094/assets/139303998/cf8aaabb-e65f-485c-9b6c-17502efb8baf)
 
-6. By using a user defined function perform all arithmetic operations.
+6.By using a user defined function perform all arithmetic operations.
 
 ![image](https://github.com/Nisarg512/MAD_Practical_1_21012011094/assets/139303998/ad27d54c-9f6b-449c-8481-d20d3a20c0cb)
 
